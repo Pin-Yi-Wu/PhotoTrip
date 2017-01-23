@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_epdals"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.phototrip.EpdalsActivity"
+    android:orientation="vertical"
+    android:weightSum="5"
+    android:background="@drawable/nightsky">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.13"
+        android:weightSum="6">
+
+        <ImageButton
+            android:layout_weight="0.8"
+            android:background="@drawable/icon0010"
+            android:id="@+id/bt_epepdals"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="3dp" />
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="                支出表"
+            android:layout_weight="5.2"
+            android:gravity="center"
+            android:textAlignment="textStart"
+            android:textSize="25sp"
+            android:id="@+id/tv_epdals"
+            android:textColor="@color/cast_expanded_controller_progress_text_color"
+            android:textStyle="normal|bold" />
+
+
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/radioGroup"
+        android:layout_weight="1.1">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/radioButton"
+            android:button="@null"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:text="明細" />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="分析"
+            android:id="@+id/radioButton2"
+            android:button="@null"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:textColor="#fff" />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.22"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@null"
+            android:id="@+id/textView"
+            android:layout_weight="1"
+            android:background="#fff"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@null"
+            android:id="@+id/textView2"
+            android:layout_weight="1"
+            android:background="#fff" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fram"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/radioGroup"
+        android:layout_weight="0.45">
+
+
+    </FrameLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.1">
+
+            <com.github.clans.fab.FloatingActionButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/plus001"
+                fab:fab_colorNormal="#6ce3df"
+                fab:fab_colorPressed="#ffa5c8"
+                fab:fab_colorRipple="#ffa5c8"
+                fab:fab_size="normal"
+                android:layout_gravity="end"
+                android:id="@+id/add_adepd" />
+        </LinearLayout>
+
+
+</LinearLayout>

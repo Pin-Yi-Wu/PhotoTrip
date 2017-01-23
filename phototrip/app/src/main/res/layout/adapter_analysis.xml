@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="5.5">
+
+    <ImageView
+        android:layout_width="0px"
+        app:srcCompat="@color/colorAccent"
+        android:id="@+id/imageView2"
+        android:layout_weight="1"
+        android:layout_height="45dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:id="@+id/tvds_name"
+        android:layout_weight="1.5"
+        android:textSize="25sp"
+        android:textColor="@color/cast_libraries_material_featurehighlight_text_body_color" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:id="@+id/tvds_cash"
+        android:layout_weight="1.5"
+        android:textSize="25sp"
+        android:textColor="@color/cast_libraries_material_featurehighlight_text_body_color"
+        android:textAlignment="viewEnd" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:id="@+id/tv_persent"
+        android:layout_weight="1.5"
+        android:textSize="25sp"
+        android:textColor="@color/cast_libraries_material_featurehighlight_text_body_color"
+        android:textAlignment="center" />
+</LinearLayout>

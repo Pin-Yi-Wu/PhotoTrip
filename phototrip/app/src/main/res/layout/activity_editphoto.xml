@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_camera"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.phototrip.CameraActivity"
+    android:orientation="vertical"
+    android:weightSum="5"
+    android:background="@drawable/nightsky">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.13"
+        android:weightSum="5">
+
+        <ImageButton
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:background="@drawable/icon0010"
+            android:id="@+id/edbt_cameraicon" />
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="            相片描述"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:textAlignment="textStart"
+            android:textSize="25sp"
+            android:id="@+id/edtv_tile"
+            android:textColor="@color/cast_libraries_material_featurehighlight_text_body_color"
+            android:textStyle="normal|bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.125"
+        android:weightSum="2">
+
+        <TextView
+            android:text="名稱:"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/edtv_name"
+            android:layout_weight="1.6"
+            android:textAlignment="center"
+            android:paddingTop="25dp"
+            android:textSize="24sp"
+            android:textColor="@color/cast_libraries_material_featurehighlight_text_body_color" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="text"
+            android:ems="10"
+            android:id="@+id/edet_name"
+            android:layout_weight="0.4"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.9"
+        android:weightSum="2">
+
+        <TextView
+            android:text="描述:"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/edtv_content"
+            android:layout_weight="1.6"
+            android:paddingTop="60dp"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textColor="@color/cast_libraries_material_featurehighlight_text_body_color" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="text"
+            android:ems="10"
+            android:id="@+id/edet_content"
+            android:layout_weight="0.4"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.73">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/edimg" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.1"
+        android:weightSum="2.2">
+
+        <ImageButton
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:id="@+id/edimbt_check"
+            android:layout_weight="1"
+            android:background="@null"
+            android:src="@drawable/check0013"
+            android:paddingLeft="25dp" />
+
+        <ImageButton
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:id="@+id/edimbt_cancle"
+            android:layout_weight="1"
+            android:background="@null"
+            android:paddingLeft="20dp"
+            android:src="@drawable/cancel002" />
+    </LinearLayout>
+</LinearLayout>

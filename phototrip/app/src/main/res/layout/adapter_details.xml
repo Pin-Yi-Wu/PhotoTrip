@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="3">
+
+    <TextView
+        android:text="早餐"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:id="@+id/tvd_name"
+        android:layout_weight="0.8"
+        android:textSize="24sp"
+        android:textColor="@color/cast_libraries_material_featurehighlight_text_body_color" />
+
+    <TextView
+        android:text="100"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:id="@+id/tvd_cash"
+        android:layout_weight="1"
+        android:textSize="24sp"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/cast_libraries_material_featurehighlight_text_body_color" />
+
+    <TextView
+        android:text="2016-12-26"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:id="@+id/tvd_date"
+        android:layout_weight="1.2"
+        android:textSize="24sp"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/cast_libraries_material_featurehighlight_text_body_color" />
+</LinearLayout>

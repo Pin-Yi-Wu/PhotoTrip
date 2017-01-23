@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="colorRed">#ef0511</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGary">#bebbbb</color>
+    <color name="colorGreen">#436e59</color>
+    <color name="colorLightblue">#6ce3df</color>
+    <color name="colorNone">#99d4f1</color>
+    <color name="colorTab">#3893d4</color>
+    <color name="coloryellow">#d8ad23</color>
+    <color name="colorlist">#eddd94</color>
+    <color name="colorChar1">#ff0000</color>
+    <color name="colorChar2">#ff8400</color>
+    <color name="colorChar3">#fff200</color>
+    <color name="colorChar4">#fd00ff48</color>
+    <color name="colorChar5">#202a47</color>
+    <color name="colorChar6">#5b6fae</color>
+    <color name="colorChar7">#7c92c2</color>
+    <color name="colorChar8">#ff00a6</color>
+    <color name="colorChar9">#00b7ff</color>
+    <color name="colorChar10">#91a9be</color>
+    <color name="colorChar11">#00e9bf</color>
+    <color name="colorChar12">#7fb2ff</color>
+    <color name="colorChar13">#380081</color>
+    <color name="colorChar14">#006d94</color>
+    <color name="colorChar15">#00b2e9</color>
+    <color name="colorChar16">#00477d</color>
+</resources>
+

@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="6.35"
+    android:orientation="vertical"
+    android:elevation="0dp"
+    android:background="@drawable/nightsky001">
+
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.15"
+        android:weightSum="6">
+
+            <ImageButton
+                android:layout_width="0px"
+                android:layout_height="50dp"
+                android:layout_weight="0.8"
+                android:background="@drawable/icon0010"
+                android:id="@+id/bt_adepdicon"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="3dp" />
+
+        <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="新增支出"
+                android:layout_weight="4.4"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:id="@+id/tv_tile"
+                android:textColor="@color/wallet_bright_foreground_holo_dark"
+            android:textStyle="normal|bold" />
+
+        <Button
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:id="@+id/bt_check"
+            android:layout_weight="0.8"
+            android:background="@drawable/save0013"
+
+            />
+
+
+    </LinearLayout>
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/et_cash"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:gravity="bottom|right"
+            android:inputType="number"
+            android:singleLine="false"
+            android:selectAllOnFocus="false"
+            android:textAllCaps="false"
+            android:hint="0"
+            android:elevation="0dp"
+            android:layout_weight="0.9"
+            android:textColor="@color/cast_expanded_controller_progress_text_color"
+            android:textColorHint="@color/colorChar10"
+            android:textSize="80dp"
+            android:textColorLink="@color/cast_expanded_controller_progress_text_color"
+            android:background="?android:attr/scrollbarThumbHorizontal" />
+
+
+
+    <RadioGroup
+        android:id="@+id/first_group"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.05">
+
+        <RadioButton
+            android:layout_height="match_parent"
+            android:id="@+id/rb_breakfast"
+            android:text="早餐"
+            android:button="@null"
+            android:checked="true"
+            android:elevation="0dp"
+            android:drawableTop="@drawable/b02"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:layout_width="0px"
+            android:textAlignment="center"
+            android:textColor="@color/cast_libraries_material_featurehighlight_text_body_color" />
+
+        <RadioButton
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:id="@+id/rb_lunch"
+            android:layout_weight="1"
+
+            android:text="午餐"
+            android:textAllCaps="false"
+            android:drawableTop="@drawable/b03"
+            android:button="@null"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/cast_libraries_material_featurehighlight_text_body_color"
+
+            />
+
+        <RadioButton
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:id="@+id/rb_dinner"
+            android:layout_weight="1"
+
+            android:text="晚餐"
+            android:textAlignment="center"
+            android:button="@null"
+            android:drawableTop="@drawable/b04"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/cast_libraries_material_featurehighlight_text_body_color"
+/>
+
+        <RadioButton
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:id="@+id/rb_dessert"
+            android:layout_weight="1"
+
+            android:text="零食"
+            android:textAllCaps="false"
+            android:drawableTop="@drawable/b05"
+            android:button="@null"
+            android:textAlignment="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/cast_libraries_material_featurehighlight_text_body_color"
+
+           />
+
+        <RadioButton
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:id="@+id/rb_drink"
+            android:layout_weight="1"
+
+            android:text="飲料"
+            android:button="@null"
+            android:textAlignment="center"
+            android:drawableTop="@drawable/b001"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/cast_libraries_material_featurehighlight_text_body_color"
+/>
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/second_group"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.05">
+
+        <RadioButton
+            android:text="交通費"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/rb_transportation"
+            android:layout_weight="1"
+            android:background="@null"
+            android:button="@null"
+            android:textAlignment="center"
+            android:drawableTop="@drawable/b06"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/cast_libraries_material_featurehighlight_text_body_color"/>
+
+        <RadioButton
+            android:text="日用品"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/rb_stuff"
+            android:layout_weight="1"
+            android:background="@null"
+            android:textAlignment="center"
+            android:button="@null"
+            android:drawableTop="@drawable/b07"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/cast_libraries_material_featurehighlight_text_body_color"/>
+
+        <RadioButton
+            android:text="娛樂"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/rb_fun"
+            android:layout_weight="1"
+            android:background="@null"
+            android:textAlignment="center"
+            android:button="@null"
+            android:drawableTop="@drawable/b08"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/cast_libraries_material_featurehighlight_text_body_color"/>
+
+        <RadioButton
+            android:text="住宿"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/rb_hotel"
+            android:layout_weight="1"
+            android:background="@null"
+            android:textAlignment="center"
+            android:button="@null"
+            android:drawableTop="@drawable/b09"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/cast_libraries_material_featurehighlight_text_body_color"/>
+
+        <RadioButton
+            android:text="其他"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/rb_others"
+            android:layout_weight="1"
+            android:background="@null"
+            android:textAlignment="center"
+            android:button="@null"
+            android:drawableTop="@drawable/b10"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/cast_libraries_material_featurehighlight_text_body_color"/>
+    </RadioGroup>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.1"
+            android:weightSum="3"
+        android:background="?android:attr/scrollbarThumbHorizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:id="@+id/ig_content" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:inputType="text"
+                android:ems="10"
+                android:id="@+id/et_content"
+                android:layout_weight="2"
+                android:hint="描述"
+                android:textAlignment="center"
+                android:singleLine="false"
+                android:selectAllOnFocus="false"
+                android:text="@null"
+                android:textColor="@color/cast_expanded_controller_progress_text_color"
+                android:textColorHint="@color/colorChar10"
+                android:textColorLink="@color/cast_expanded_controller_progress_text_color" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.12"
+        android:weightSum="3"
+        android:background="?android:attr/scrollbarThumbHorizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:id="@+id/ig_date" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:focusableInTouchMode="false"
+            android:ems="10"
+            android:id="@+id/et_date"
+            android:layout_weight="2"
+            android:hint="日期"
+            android:textAlignment="center"
+            android:singleLine="false"
+            android:textColorHint="@color/colorChar10"
+            android:textColor="@color/cast_expanded_controller_progress_text_color"
+            android:textColorLink="@color/cast_expanded_controller_progress_text_color" />
+    </LinearLayout>
+
+</LinearLayout>
+
+

@@ -1,0 +1,140 @@
+
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.phototrip.MapsActivity">
+
+   <!-- <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+    </android.support.v7.widget.Toolbar>-->
+
+    <TextView
+        android:id="@+id/map_tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_gravity="top|center"
+        android:textColor="@color/colorChar16" />
+    <Switch
+        android:text="Map/Earth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/switch1"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold" />
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        fab:menu_colorNormal="#6ce3df"
+        fab:menu_colorPressed="#ffffff"
+        fab:menu_colorRipple="#ffffff"
+        fab:menu_fab_size="normal"
+        fab:menu_showShadow="true"
+        fab:menu_shadowColor="#66000000"
+        fab:menu_icon="@drawable/house001"
+        >
+
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_vwtravl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/files001"
+            fab:menu_colorNormal="#6ce3df"
+            fab:menu_colorPressed="#ffffff"
+            fab:menu_colorRipple="#ffffff"
+            fab:fab_size="mini"
+            fab:fab_label="旅程回顧"
+            />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_sos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sos001"
+            fab:menu_colorNormal="#6ce3df"
+            fab:menu_colorPressed="#ffffff"
+            fab:menu_colorRipple="#ffffff"
+            fab:fab_size="mini"
+            fab:fab_label="緊急求救" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_epdals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ed001"
+            fab:menu_colorNormal="#6ce3df"
+            fab:menu_colorPressed="#ffffff"
+            fab:menu_colorRipple="#ffffff"
+            fab:fab_size="mini"
+            fab:fab_label="支出表" />
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_adepd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/money004"
+            fab:menu_colorNormal="#6ce3df"
+            fab:menu_colorPressed="#ffffff"
+            fab:menu_colorRipple="#ffffff"
+            fab:fab_size="mini"
+            fab:fab_label="新增支出" />
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/camera001"
+            fab:menu_colorNormal="#6ce3df"
+            fab:menu_colorPressed="#ffffff"
+            fab:menu_colorRipple="#ffffff"
+            fab:fab_size="mini"
+            fab:fab_label="相機" />
+
+    </com.github.clans.fab.FloatingActionMenu>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt_earth"
+            android:background="@drawable/earth004" />
+
+        <Button
+            android:id="@+id/zoom_plus"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/puls0001" />
+
+        <Button
+            android:id="@+id/zoom_cut"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+            android:background="@drawable/less0001" />
+    </LinearLayout>
+
+</fragment>
+
+
+
+
