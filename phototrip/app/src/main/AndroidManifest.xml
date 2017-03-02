@@ -18,7 +18,8 @@
     <application
         android:allowBackup="true"
         android:icon="@drawable/icon0010"
-        android:label="@string/app_name"
+
+        android:label="PhotoTrip"
         android:supportsRtl="true"
         android:theme="@style/MyTheme">
 
@@ -29,6 +30,7 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
