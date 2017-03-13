@@ -7,7 +7,8 @@
     android:layout_height="match_parent"
     android:background="@drawable/nightsky"
     tools:context="com.phototrip.MainActivity"
-    android:padding="20dp">
+    android:padding="20dp"
+    android:animationCache="true">
 
 
     <!--android:listSelector="@color/colorGary"-->

@@ -10,22 +10,10 @@
             android:layout_height="wrap_content"
             android:id="@+id/textView5"
             android:textSize="30sp"
-        android:textColor="@color/colorChar14"
+        android:textColor="@color/colorLightblue"
         android:layout_alignBaseline="@+id/tv_startday"
         android:layout_alignBottom="@+id/tv_startday"
         android:layout_centerHorizontal="true" />
-
-    <TextView
-        android:text="TextView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/tv_name"
-        android:gravity="center"
-        android:textSize="30sp"
-        android:textColor="@color/colorChar16"
-        android:textStyle="normal|bold"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
 
     <TextView
         android:text="TextView"
@@ -33,7 +21,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/tv_startday"
         android:textSize="25sp"
-        android:textColor="@color/colorChar14"
+        android:textColor="@color/colorLightblue"
         android:layout_below="@+id/tv_name"
         android:layout_alignParentStart="true" />
 
@@ -43,9 +31,21 @@
             android:layout_height="wrap_content"
             android:id="@+id/tv_stopday"
             android:textSize="25sp"
-            android:textColor="@color/colorChar14"
+            android:textColor="@color/colorLightblue"
         android:layout_below="@+id/tv_name"
         android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_name"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/colorChar11"
+        android:textStyle="normal|bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
 
 
 </RelativeLayout>
